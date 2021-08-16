@@ -1,0 +1,43 @@
+counter = başlayacağı basamak
+value = artış sayısı
+result = toplam bulma
+	
+
+var counter = 0;
+var value = 3;
+var result = 0;
+while(counter < 21){
+    result = result + value * counter;
+    document.write(value * counter + "<br>");
+    counter = counter + 1;
+}
+document.write("+______________________________________________<br>")
+document.write(result);
+
+
+* if(counter % 3 == 0)    3e bölümünden kalan 0 demek
+while(döngü)
+var(tanımlama
+
+
+var array = ["Merhaba","Ben Omer","Hosgeldiniz","Nasilsiniz"];
+for(var counter =0; counter < 10; counter++){
+    var random = Math.random() * 10;
+    console.log(random);
+})
+
+
+
+function birlestir(isim,soyisim){
+    var isim_sonuc = isim + soyisim;
+    return isim_sonuc;
+}
+var isimler = ["Omer ","Kayra ","Halil ","Deniz "];
+var soyisimler = ["Bulut","Ozekin","Alp","Cetin"]
+for(var sayac=0; sayac < isimler.length; sayac++){
+    var rastgele = Math.floor(Math.random()*4);
+    var rastgele1 = Math.floor(Math.random()*4);
+    console.log(birlestir(isimler[rastgele],soyisimler[rastgele1]));
+}
+
+
